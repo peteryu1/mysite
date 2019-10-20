@@ -2,7 +2,7 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-from views import here, math
+from .views import here, math
 from restaurants.views import menu
 
 
